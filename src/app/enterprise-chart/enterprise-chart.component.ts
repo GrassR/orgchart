@@ -41,10 +41,10 @@ export class EnterpriseChartComponent implements OnInit {
         { id: 3, pid: 1, name: "Technical department"},
         { id: 4, pid: 1, name: "Human Resources Department",},
         { id: 5, pid: 1, name: "Marketing department", },
-        { id: 6, pid: 2, name: "Zuyi", title: "Developer", img:"./assets/zuyi.jpg"},
-        { id: 7, pid: 3, name: "Gavi", title: "Director of sales", img: "./assets/Gavi.jpg" },
-        { id: 8, pid: 4, name: "Yasin", title: "Personnel manager", img: "./assets/yasin.jpg" },
-        { id: 9, pid: 5, name: "Zuyi", title: "Marketing Manager", img: "./assets/zuyi.jpg" }
+        { id: 6, pid: 2, name: "Zuyi", title: "Developer", img:"./assets/b.png"},
+        { id: 7, pid: 3, name: "Gavi", title: "Director of sales", img: "./assets/b.png" },
+        { id: 8, pid: 4, name: "Yasin", title: "Personnel manager", img: "./assets/b.png" },
+        { id: 9, pid: 5, name: "Zuyi", title: "Marketing Manager", img: "./assets/b.png" }
 
       ]
     });
