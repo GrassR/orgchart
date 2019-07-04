@@ -1,0 +1,20 @@
+<!-- nav -->
+<nav class="navbar navbar-expand navbar-dark bg-dark">
+    <div class="navbar-nav">
+        <a href="app.component.html"><img src="assets/image.png" width="40px" height="40px" ></a>
+        <a class="nav-item nav-link" routerLink="/">Home</a>
+        <a class="nav-item nav-link" routerLink="/projectChart">Project</a>
+        <a class="nav-item nav-link" routerLink="/enterpriseChart">Enterprise</a>
+    </div>
+</nav>
+
+<!-- main content container -->
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</div>
